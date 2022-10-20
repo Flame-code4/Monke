@@ -5,7 +5,103 @@
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "TiledBackground3",
+					"properties": {
+						"initially-visible": true,
+						"origin": "center",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "clamp-to-edge",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1479.5,
+						"y": 622,
+						"width": 3042.3525743955993,
+						"height": 1105.947025060442,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 242,
+						"y": 736,
+						"width": 745.160246050277,
+						"height": 745.160246050277,
+						"originX": 0.5,
+						"originY": 0.5625,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TiledBackground2",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "mirror-repeat",
+						"wrap-vertical": "clamp-to-edge",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 1044,
+						"width": 2048,
+						"height": 137,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 485830510945969,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
