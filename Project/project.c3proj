@@ -39,7 +39,10 @@
 			"Tilemap",
 			"Sprite2",
 			"TiledBackground2",
-			"TiledBackground3"
+			"TiledBackground3",
+			"Sprite3",
+			"TiledBackground4",
+			"TiledBackground5"
 		],
 		"subfolders": []
 	},
