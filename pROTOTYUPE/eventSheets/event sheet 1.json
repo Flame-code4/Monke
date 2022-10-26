@@ -1,0 +1,156 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 487255572983551,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "MonkeyHero",
+					"sid": 979671756164751,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 573474871887152
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 725855865751012,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "MonkeyHero",
+					"sid": 580356537365629,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 847085974603150
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "MonkeyHero",
+					"sid": 327627737644257,
+					"parameters": {
+						"object": "WildMonkeyEnemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "MonkeyHero",
+					"sid": 854951712155650,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "10"
+					}
+				}
+			],
+			"sid": 523403208771158
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 875784149454302,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite2",
+					"sid": 153928009378635,
+					"parameters": {
+						"x": "MonkeyHero.X",
+						"y": "MonkeyHero.Y"
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "Sprite2",
+					"sid": 213226473692662,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "MonkeyHero.Angle"
+					}
+				}
+			],
+			"sid": 245843028858149
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 296730214697730,
+					"parameters": {
+						"object": "WildMonkeyEnemy"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "WildMonkeyEnemy",
+					"sid": 608399069668889
+				}
+			],
+			"sid": 333918626593457
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "MonkeyHero",
+					"sid": 565234469654386
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 617613600778292,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 704929977150973
+		}
+	],
+	"sid": 655449611219374
+}
