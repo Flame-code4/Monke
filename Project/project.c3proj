@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 30802,
-	"name": "New project",
+	"name": "Monkey Mayhem",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -24,26 +24,62 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
 		}
 	],
-	"uniqueId": "jvp90la9cuf",
+	"uniqueId": "iuvita9i6n5",
 	"objectTypes": {
 		"items": [
-			"Sprite",
-			"TiledBackground",
-			"Tilemap",
-			"Sprite2",
-			"TiledBackground2",
-			"TiledBackground3",
-			"Sprite3",
-			"TiledBackground4",
-			"TiledBackground5",
-			"TiledBackground6"
+			"WildMonkeyEnemy",
+			"JungleGround",
+			"JungleBackground",
+			"MonkeyHero",
+			"Keyboard",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -89,17 +125,9 @@
 		"icon": {
 			"items": [
 				{
-					"name": "icon-16.png",
+					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 424886140948843,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-32.png",
-					"type": "image/png",
-					"sid": 319203890364219,
+					"sid": 455052789412185,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -107,15 +135,23 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 599008380791637,
+					"sid": 762220990747521,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
 				},
 				{
-					"name": "icon-128.png",
+					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 548347370683993,
+					"sid": 599528273355001,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 602478921730380,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -123,7 +159,7 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 923145262776410,
+					"sid": 258725972806044,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
@@ -131,7 +167,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 534318437947144,
+					"sid": 154696984778596,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -139,7 +175,7 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 916288016544163,
+					"sid": 964278254321654,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -170,12 +206,12 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": true,
+		"pixelRounding": false,
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
-		"fullscreenMode": "letterbox-integer-scale",
-		"fullscreenQuality": "low",
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
 		"viewportFit": "auto",
 		"backgroundColor": [
 			0,
@@ -202,7 +238,7 @@
 		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"compositingMode": "standard",
-		"sampling": "nearest",
+		"sampling": "trilinear",
 		"downscaling": "medium",
 		"renderingMode": "auto",
 		"anisotropicFiltering": "auto",
@@ -213,7 +249,7 @@
 		"cordovaAndroidScheme": "https",
 		"autoReloadScriptsOnPreview": false
 	},
-	"viewportWidth": 1920,
-	"viewportHeight": 1080,
+	"viewportWidth": 854,
+	"viewportHeight": 480,
 	"firstLayout": null
 }
