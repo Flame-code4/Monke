@@ -1,0 +1,26 @@
+{
+	"name": "JungleGround",
+	"plugin-id": "TiledBg",
+	"sid": 904295281453007,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 977177059787342
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 180,
+		"height": 180,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6572356,
+		"useCollisionPoly": true
+	}
+}

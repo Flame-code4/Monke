@@ -1,0 +1,63 @@
+{
+	"name": "Sprite2",
+	"plugin-id": "Sprite",
+	"sid": 342121284722800,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 125898130109295
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 800,
+						"height": 444,
+						"originX": 0.44625,
+						"originY": -0.02927927927927928,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 344887,
+						"collisionPoly": {
+							"points": [
+								0.03375,
+								0.060810810810810814,
+								0.5,
+								0.08783783783783784,
+								0.84125,
+								0.28378378378378377,
+								0.9925,
+								0.5,
+								0.92625,
+								0.8671171171171171,
+								0.5,
+								0.7477477477477478,
+								0.245,
+								0.5563063063063063,
+								0.18625,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 790072638346739,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

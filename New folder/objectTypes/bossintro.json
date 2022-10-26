@@ -1,0 +1,37 @@
+{
+	"name": "bossIntro",
+	"plugin-id": "Sprite",
+	"sid": 865531994471467,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 655,
+						"height": 641,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3801077,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 322768455638213,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

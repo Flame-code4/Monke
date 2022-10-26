@@ -1,0 +1,75 @@
+{
+	"name": "WildMonkeyEnemy",
+	"plugin-id": "Sprite",
+	"sid": 239644668989217,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 367800186939796
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 558438323081154
+		},
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 913460256643864
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9570010,
+						"collisionPoly": {
+							"points": [
+								0.96,
+								0.5,
+								0.8200000000000001,
+								0.8,
+								0.5,
+								0.94,
+								0.24,
+								0.76,
+								0.28,
+								0.5,
+								0.26,
+								0.24,
+								0.5,
+								0.1,
+								0.9,
+								0.1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 969714599415324,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
